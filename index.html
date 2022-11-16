@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Portfolio</title>
+    <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/92806ebe9e.js"
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  </head>
+  <body>
+    <!--=====NAV SECTION======-->
+    <nav class="navbar">
+      <div class="max-widthnav">
+        <div class="logodiv">
+          <a href="#"><img src="img/logo.png" class="logo" /></a>
+        </div>
+        <ul class="menu">
+          <li>
+            <a href="#home"> Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+          <li>
+            <a href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <div class="menu-btn"><i class="fas fa-bars"></i></div>
+      </div>
+    </nav>
+
+    <!--=====HOME SECTION===== -->
+    <section class="home" id="home">
+      <div class="max-with">
+        <div class="home-content">
+          <div class="text-1">Hello, my name is</div>
+          <div class="text-2">Elaine Rose</div>
+          <div class="text-3">And I'm a <span class="typing"></span></div>
+          <a href="#">Hire Me</a>
+        </div>
+      </div>
+    </section>
+
+    <!------------About Start------------>
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="img/bakgroundprofle.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <h3>Hello, I'm <span>Elaine Rose</span></h3>
+            <p>
+              I'm a web developer. I'm continously learning new things and I'd
+              like to develop expertise in several areas. I enjoyed building
+              everything from small business sites to a more interactive
+              websites.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links skills-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents skill-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Designing Web/App interfaces</li>
+                <li><span>Web Development</span><br />Web app Development</li>
+                <li>
+                  <span>Photo and Video Editing</span><br />Layout/Branding
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>Oct. 2018 - Sept. 2020</span><br />China Banking
+                  Corportation (HR Staff)
+                </li>
+                <li>
+                  <span>Apr. 1 - Sept. 15 2018 </span><br />Staff Alliance Inc.
+                  assigned to China Banking Corporation as STAFF ASSISTANT
+                </li>
+                <li>
+                  <span>Jul. 2017 - Mar. 2018</span><br />KINTETSU WORLD EXPRESS
+                  (PHILIPPINES) INC (RTD CLERK)
+                </li>
+              </ul>
+            </div>
+
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>S.Y. 2002-2003</span><br />Francisco Bolante Memorial
+                  School
+                </li>
+                <li>
+                  <span>S.Y 2006-2007 </span><br />Christ the King College de
+                  Maranding
+                </li>
+                <li>
+                  <span>S.Y 2013-2017</span><br />Christ the King College de
+                  Maranding (Bachelor of Science in Computer Science)
+                </li>
+              </ul>
+            </div>
+            <a href="img/CV.pdf" download class="btn btn2">Download CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=============SERVICES===================-->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Developer</h2>
+            <p>
+              Create everything from scratch and build it into one through the
+              browser.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-paintbrush"></i>
+
+            <h2>UI/UX Design</h2>
+            <p>
+              Create everything from scratch and build it into one through the
+              browser.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <i class="fa-sharp fa-solid fa-crop"></i>
+            <h2>Photo and Video Editing</h2>
+            <p>
+              Create everything from scratch and build it into one through the
+              browser.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--=============PORTFOLIO===================-->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="img/work 1.png" />
+            <div class="layer">
+              <h3>E-Magazine</h3>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/work 2.png" />
+            <div class="layer">
+              <h3>Coming Soon...</h3>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="img/work 3.png" />
+            <div class="layer">
+              <h3>Coming Soon...</h3>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!--=============CONTACT===================-->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <span>Get in touch.</span>
+            <p><i class="fa-solid fa-user"></i>Elaine Rose C. Miculob</p>
+            <p>
+              <i class="fa-solid fa-envelope"></i> elainerose.miculob@gmail.com
+            </p>
+            <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 09393190385</p>
+            <div class="social-icons">
+              <a href="https://facebook.com/"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/"
+                ><i class="fa-brands fa-square-twitter"></i
+              ></a>
+              <a href="https://instagram.com/"
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https:/linkedin.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span
+        >Created By: <b class="cherry">Cherry_Laine</b> | All Right Reserved! @
+        2022
+      </span>
+    </footer>
+    <script src="portfolio.js"></script>
+  </body>
+</html>
